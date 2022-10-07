@@ -1,0 +1,81 @@
+.footer .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer .container .Content .services .Links{ 
+    margin: 1rem 0rem;
+}
+.footer .container .Content .social-links .social{ 
+    margin: 1rem 0rem;
+}
+.footer .container .Content .Contact-Phone .Phone{ 
+    margin: 1rem 0rem;
+}
+.footer .container .Content .Contact-Email .Email{ 
+    margin: 1rem 0rem;
+}
+
+.Trademark {
+    text-align: center;
+
+}
+.Trademark h4 {
+    color: var(--Text-Dark);
+    margin: 2rem 0rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer {
+        position: relative;
+        top: 320px;
+    }
+    .footer .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .footer .container  h3 {
+        font-size: 12px;
+        margin: .5rem .5rem;
+    }
+    .footer .container .Content h3 {
+        font-size: 12px;
+        margin: .5rem .5rem;
+    }
+    .footer .container .Content p {
+        font-size: 12px;
+        margin: .5rem .5rem;
+    }
+    .footer .container .Content .services .Links{ 
+        font-size: 12px;
+        margin: .5rem .5rem;
+    }
+    .footer .container .Content .social-links .social{ 
+        font-size: 12px;
+        margin: .5rem .5rem;
+    }
+    .footer .container .Content .Contact-Phone .Phone{ 
+        font-size: 12px;
+        margin: .5rem .5rem;
+    }
+    .footer .container .Content .Contact-Email h3{
+        display: none;
+        font-size: 12px;
+        margin: .5rem .5rem;
+    }
+    .footer .container .Content .Contact-Email .Email{ 
+        display: none;
+        font-size: 12px;
+        margin: .5rem .5rem;
+    }
+    
+    .Trademark {
+        text-align: center;
+        position: relative;
+        bottom: 1rem;
+    
+    }
+    .Trademark h4 {
+        color: var(--Text-Dark);
+        margin: 2rem 0rem;
+    }
+}

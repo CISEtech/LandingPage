@@ -1,0 +1,95 @@
+.subContainer {
+    width: 100%;
+    margin: 2rem 2rem;
+    padding: 0rem 6rem;
+    background-color: var(--background);
+}
+.subContainer .subContent {
+    text-align: center;
+    margin: 0rem 4rem;
+    height: 400px;
+    padding: 2rem 0rem;
+    color: var(--Text-main);
+}
+.subContainer .subContent p {
+    margin: .5rem 0rem;
+}
+.subContainer .subContent .image-container {
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+   bottom: 125px;
+}
+.subContainer .subContent .image-container .image-sector-1 h4{
+    color:var(--Text-main);
+    position: relative;
+    bottom: 15rem;
+    font-size: 25px;
+}
+.subContainer .subContent .image-container .image-sector-2 h4{
+    color:var(--Text-main);
+    position: relative;
+    bottom: 15rem;
+    font-size: 25px;
+}
+.subContainer .subContent .image-container .image-sector-3 h4{
+    color:var(--Text-main);
+    position: relative;
+    bottom: 15rem;
+    font-size: 25px;
+}
+
+.subContainer .subContent .image-container img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .subContainer {
+        width: 100%;
+        margin: 2rem 0rem;
+        background-color: var(--background);
+    }
+    .subContainer .subContent {
+        text-align: justify;
+        margin: 0rem 0rem;
+        height: 400px;
+        padding: 2rem 4rem 0rem 0rem ;
+        color: var(--Text-main);position: relative;left: -5rem;
+    }
+    .subContainer .subContent p {
+        margin: .5rem 0rem;
+    }
+    .subContainer .subContent .image-container {
+       display: none;
+       justify-content: space-between;
+       position: relative;
+       bottom: 125px;
+       display: none;
+    }
+    .subContainer .subContent .image-container .image-sector-1 h4{
+        display: none;
+        color:var(--Text-main);
+        position: relative;
+        bottom: 15rem;
+        font-size: 25px;
+    }
+    .subContainer .subContent .image-container .image-sector-2 h4{
+        display: none;
+        color:var(--Text-main);
+        position: relative;
+        bottom: 15rem;
+        font-size: 25px;
+    }
+    .subContainer .subContent .image-container .image-sector-3 h4{
+        display: none;
+        color:var(--Text-main);
+        position: relative;
+        bottom: 15rem;
+        font-size: 25px;
+    }
+    
+    .subContainer .subContent .image-container img {
+        display: none;
+        width: 100%;
+    }
+}

@@ -1,0 +1,48 @@
+.subContainerText {
+    width: 100%;
+    margin: 2rem 0rem;
+    padding: 0rem 2rem;
+    
+}
+
+.subContainerText .subText {
+    text-align: center;
+    margin: 0rem 2rem;
+    height: 100px;
+    width: 70%;
+    padding: 2rem 2rem;
+    color: var(--Text-Dark);
+    position: relative;
+    left: 200px;
+    font-size: 18px;
+}
+
+.subContainerText .subText p {
+    text-align: center;
+    margin: .5rem 0rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .subContainerText {
+        width: 100%;
+        margin: 2rem 0rem;
+        padding: 0rem 2rem;
+        
+    }
+    
+    .subContainerText .subText {
+        text-align: center;
+        margin: 0rem 2rem;
+        height: 100px;
+        width: 70%;
+        padding: 2rem 2rem;
+        color: var(--Text-Dark);
+        position: relative;
+        left: -3.5rem;
+        font-size: 18px;
+    }
+    .subContainerText .subText p {
+        text-align: justify;
+    }
+    
+}

@@ -1,0 +1,78 @@
+.Container {
+    display: grid;
+    grid-template-columns: 600px 700px;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+}
+.Container .Right .Content {
+    background: var(--background);
+    height: 600px;
+}
+.Container .Right .Content  h3 {
+    color: var(--Text-main);
+    text-align: center;
+    position: relative;
+    top: 250px;
+    font-size: 30px;
+}
+.Container .Right .Content  p {
+    color: var(--Text-Other);
+    text-align: center;
+    position: relative;
+    top: 250px;
+    font-size: 20px;
+}
+.Container .Left .Content {
+    background: var(--background);
+}
+
+.Container .Left .Content .image {
+    width: 30%;
+    height: 600px;
+}
+.Container .Left .Content .image img {
+    width: 250%;
+    position: relative;
+    left: 50px;
+    bottom: 100px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .Container {
+        display: block;
+    }
+    .Container .Right .Content {
+        background: var(--background);
+        height: 600px;
+    }
+    .Container .Right .Content  h3 {
+        color: var(--Text-main);
+        text-align: center;
+        position: relative;
+        top: 250px;
+        font-size: 30px;
+    }
+    .Container .Right .Content  p {
+        color: var(--Text-Other);
+        text-align: center;
+        position: relative;
+        top: 250px;
+        font-size: 20px;
+    }
+    .Container .Left .Content {
+        display: none;
+        background: var(--background);
+    }
+    
+    .Container .Left .Content .image {
+        width: 30%;
+        height: 600px;
+    }
+    .Container .Left .Content .image img {
+        width: 250%;
+        position: relative;
+        left: 50px;
+        bottom: 100px;
+    }
+    
+}

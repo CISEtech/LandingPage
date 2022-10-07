@@ -1,0 +1,55 @@
+.container nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+    background: none;
+    color: var(--Text-Dark);
+    background: transparent !important;
+    cursor: pointer;
+}
+
+.container .Options {
+    display: flex;
+}
+.container .Options .Listing {
+    margin: 0rem 2rem;
+    color: var(--Text-Dark);
+}
+
+.container .nav-btn {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 1024px){
+    .container .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+    .container nav .Options{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display:none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.5rem;
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+    .container .Respond {
+        transform: none;
+    }
+    .container .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+}

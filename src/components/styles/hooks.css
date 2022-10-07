@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --background: #3D5168;
+    --secondarybg: #759194;
+    --icon: #637986;
+    --Text-main: #F4F3FF;
+    --Text-Other: #CDD2CA;
+    --Text-Dark: #444C57;
+    --hover: #B9C4D6;
+    --mainmargin: 2rem 2rem;
+}
+.max_width{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+ 
+a {
+    text-decoration: none;
+    color: var(--text-main);
+}

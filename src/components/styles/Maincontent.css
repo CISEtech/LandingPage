@@ -1,0 +1,75 @@
+.Container {
+    /* display: grid;
+    grid-template-columns: 600px 700px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+}
+.Container .LeftContainer .Content {
+    background: var(--background);
+    height: 600px;
+}
+.Container .LeftContainer .Content  h3 {
+    color: var(--Text-main);
+    text-align: center;
+    position: relative;
+    top: 250px;
+    font-size: 30px;
+}
+.Container .LeftContainer .Content  p {
+    color: var(--Text-Other);
+    text-align: center;
+    position: relative;
+    top: 250px;
+    font-size: 20px;
+}
+.Container .RightContainer .Content {
+    background: var(--secondarybg);
+}
+
+.Container .RightContainer .Content .image {
+  
+}
+.Container .RightContainer .Content .image img {
+    width: 400px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .Container {
+        display: block;
+    }
+    .Container .LeftContainer .Content {
+        display: none;
+        background: var(--background);
+        height: 600px;
+    }
+    .Container .LeftContainer .Content  h3 {
+        color: var(--Text-main);
+        text-align: center;
+        position: relative;
+        top: 250px;
+        left: -5rem;
+        font-size: 25px;
+    }
+    .Container .LeftContainer .Content  p {
+        color: var(--Text-Other);
+        text-align: center;
+        position: relative;
+        top: 250px;
+        left: -5rem;
+        font-size: 15px;
+    }
+    .Container .RightContainer .Content {
+        background: var(--secondarybg);
+        position: relative;
+    }
+    
+    /* .Container .RightContainer .Content .image {
+        width: 300px;
+    } */
+    .Container .RightContainer .Content .image img {
+        width: 400px;
+    }
+    
+}
